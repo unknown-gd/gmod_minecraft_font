@@ -1,0 +1,1 @@
+local function a(b,c,d)surface.CreateFont(b,{["font"]="F77 Minecraft",["size"]=c,["weight"]=d,["extended"]=true})end;timer.Simple(3,function()a("DermaDefault",system.IsLinux()and 12.6 or 11.7,500)a("DermaDefaultBold",system.IsLinux()and 12.6 or 11.7,800)a("DermaLarge",28.8,500)end)
